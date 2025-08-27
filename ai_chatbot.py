@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import openai
 
 # ✅ Create OpenAI client with your API key
-client = openai.OpenAI(api_key="AIzaSyCjWCz1Hk7Shyk0Z-ZQU1MOdCOsMFGlOTM")
+client = openai.OpenAI(api_key="Api_Key")
 
 # Get AI response using the client
 def get_response(user_input):
@@ -47,3 +47,4 @@ send_button = tk.Button(root, text="Send", command=send_message)
 send_button.pack(padx=10, pady=5, side=tk.RIGHT)
 
 root.mainloop()
+
